@@ -1,0 +1,30 @@
+.dateTime,.menu.watch-thread-link,.hide-reply-button,.reply input
+{
+   display: none !important;
+    }
+input[type="checkbox"]
+    {
+         display: none !important;
+    }
+:root.sw-yotsuba:not(.ua-webkit):not(.ua-blink) .fileText
+    {
+        display: none !important;
+}
+.threadContainer {
+  border-left: 1px solid rgba(128,128,128,.3);
+}
+.reply{
+    box-shadow: 0px 0px 0px rgba(0,0,0,.08);
+}
+.fixed.top-header #header-bar {
+    display: none !important;
+}
+:root.backlink-icon .backlink {
+    display: none !important
+}
+.navLinks desktop {
+    display: none !important
+}
+.postNum desktop {
+     display: none !important
+}
